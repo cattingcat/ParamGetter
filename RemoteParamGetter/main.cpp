@@ -1,5 +1,5 @@
 #include <QCoreApplication>
-#include "param_getter.h"
+#include "getter/param_getter.h"
 #include <QtDebug>
 
 int main(int argc, char *argv[])

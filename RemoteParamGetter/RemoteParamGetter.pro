@@ -17,7 +17,7 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp \
-    param_getter.cpp
+    getter/param_getter.cpp
 
 HEADERS += \
-    param_getter.h
+    getter/param_getter.h
