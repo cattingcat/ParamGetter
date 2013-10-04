@@ -7,8 +7,7 @@ QMap<QString, QString> Getter::get_params(){
     QString host("/s/1o5g6k76mlhw3l7/text.txt?token_hash=AAEXKVnLJmFsl9-dp8KNog6vWaBcae2zIu_ockhkJRbi_g&amp;amp;amp;dl=1");
     QString get("GET " + host + " HTTP/1.1\r\n"\
                 "Host: dl.dropboxusercontent.com\r\n"\
-                "Accept: */*\r\n"\
-                "User-Agent: Mozilla/4.0 (compatible; MSIE 5.0; Windows 98)\r\n"\
+                "Accept: */*\r\n"\               
                 "\r\n\r\n");
 
     QTcpSocket sock;
